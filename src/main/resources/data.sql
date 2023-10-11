@@ -1,0 +1,1 @@
+INSERT INTO `USERS` (name, email, password, created_At) VALUES ('hansol', 'abcd@naver.com', '1234', '2023-04-05 12:34:55')

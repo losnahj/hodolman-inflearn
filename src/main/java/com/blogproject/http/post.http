@@ -1,0 +1,11 @@
+## 테스트 요청
+
+POST localhost:8080/login
+Content-Type: application/json
+Authorization: "user-token"
+
+{
+  "name": "hansol",
+  "email": "abcd@naver.com",
+  "password": "12345"
+}

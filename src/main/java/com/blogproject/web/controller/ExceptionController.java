@@ -1,7 +1,7 @@
-package com.blogproject.controller;
+package com.blogproject.web.controller;
 
 import com.blogproject.exception.UnauthorizedException;
-import com.blogproject.response.ExceptionResponse;
+import com.blogproject.web.dto.response.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

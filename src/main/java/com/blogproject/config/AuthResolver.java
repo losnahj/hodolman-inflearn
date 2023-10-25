@@ -1,9 +1,8 @@
 package com.blogproject.config;
 
-import com.blogproject.controller.user.UserSession;
+import com.blogproject.web.controller.user.UserSession;
 import com.blogproject.exception.UnauthorizedException;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.User;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;

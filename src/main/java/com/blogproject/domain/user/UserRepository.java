@@ -1,7 +1,6 @@
-package com.blogproject.repository;
+package com.blogproject.domain.user;
 
 
-import com.blogproject.domain.Users;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

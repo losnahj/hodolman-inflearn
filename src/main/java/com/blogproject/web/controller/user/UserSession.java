@@ -1,4 +1,4 @@
-package com.blogproject.controller.user;
+package com.blogproject.web.controller.user;
 
 import lombok.Data;
 import lombok.ToString;

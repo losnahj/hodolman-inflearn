@@ -1,14 +1,12 @@
-package com.blogproject.controller;
+package com.blogproject.web.controller;
 
-import com.blogproject.controller.user.UserSession;
-import com.blogproject.domain.Users;
+import com.blogproject.web.controller.user.UserSession;
+import com.blogproject.domain.user.Users;
 import com.blogproject.exception.UnauthorizedException;
-import com.blogproject.repository.UserRepository;
+import com.blogproject.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @Slf4j
 @RestController

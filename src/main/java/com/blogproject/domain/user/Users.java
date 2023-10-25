@@ -1,4 +1,4 @@
-package com.blogproject.domain;
+package com.blogproject.domain.user;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
